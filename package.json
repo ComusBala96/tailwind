@@ -1,0 +1,19 @@
+{
+    "name": "@orian/tailwind",
+    "description": "All tailwind css are defined here.",
+    "version": "1.0.0",
+    "main": "tailwind.config.js",
+    "type": "module",
+    "files": [
+        "base.css",
+        "tailwind.config.js",
+        "postcss.config.js"
+    ],
+    "keywords": [],
+    "author": {
+        "name": "OrianSoft",
+        "email": "info@oriansoft.com"
+    },
+    "license": "MIT",
+    "dependencies": {}
+}
