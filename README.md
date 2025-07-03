@@ -6,7 +6,7 @@
 npm i @orian/tailwind
 ```
 
-# Or
+## Or
 
 ```yarn
 yarn add @orian/tailwind
