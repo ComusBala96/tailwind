@@ -1,19 +1,35 @@
 {
     "name": "@orian/tailwind",
-    "description": "All tailwind css are defined here.",
+    "description": "A npm package of tailwind css for OrianSoft.",
     "version": "1.0.0",
     "main": "tailwind.config.js",
     "type": "module",
+    "homepage": "https://github.com/ComusBala96/tailwind.git",
     "files": [
         "base.css",
         "tailwind.config.js",
         "postcss.config.js"
     ],
-    "keywords": [],
+    "keywords": [
+        "orian",
+        "npm",
+        "@orian",
+        "tailwind",
+        "css"
+    ],
     "author": {
         "name": "OrianSoft",
         "email": "info@oriansoft.com"
     },
     "license": "MIT",
-    "dependencies": {}
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ComusBala96/tailwind.git"
+    },
+    "dependencies": {
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13",
+        "autoprefixer": "^10.4.20"
+    },
+    "devDependencies": {}
 }
