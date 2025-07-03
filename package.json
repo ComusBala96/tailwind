@@ -24,7 +24,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ComusBala96/tailwind.git"
+         "url": "git+https://github.com/ComusBala96/tailwind.git"
     },
     "dependencies": {
         "postcss": "^8.4.47",
