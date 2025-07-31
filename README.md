@@ -3,26 +3,26 @@
 ## Installation
 
 ```npm
-npm i @oriansoft/tailwind
+npm i @orians/tailwind
 ```
 
 ## Or
 
 ```yarn
-yarn add @oriansoft/tailwind
+yarn add @orians/tailwind
 ```
 
 ## Import in app.css
 
 ```css
-@import '@oriansoft/tailwind/base.css';
+@import '@orians/tailwind/base.css';
 ```
 
 ## Configure in tailwind.config.js
 
 ```js
 /** @type {import('tailwindcss').Config} */
-import config from '@oriansoft/tailwind/tailwind.config.js';
+import config from '@orians/tailwind/tailwind.config.js';
 export default {
     ...config,
     content: ['./**/*.{js,blade.php,php}'],
@@ -32,7 +32,7 @@ export default {
 ## Configure in postcss.config.js
 
 ```js
-import config from '@oriansoft/tailwind/postcss.config.js';
+import config from '@orians/tailwind/postcss.config.js';
 export default config;
 ```
 
