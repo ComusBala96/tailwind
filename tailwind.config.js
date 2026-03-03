@@ -24,6 +24,8 @@ export default {
                 'body-green': '#009E4F',
                 'body-yellow': '#FABA1C',
                 'body-blue': '#06467F',
+                'body-red': '#a11b1a',
+                'body-dark-blue': '#0b1b2a',
                 current: 'currentColor',
                 transparent: 'transparent',
                 white: '#FFFFFF',
@@ -259,12 +261,13 @@ export default {
                 'spin-1.5': 'spin 1.5s linear infinite',
                 'spin-2': 'spin 2s linear infinite',
                 'spin-3': 'spin 3s linear infinite',
-                'bounce-once': 'bounce-once 0.8s ease-out forwards',
+                'bounce-once': 'bounce-once 0.3s ease-out forwards',
                 'slide-out': 'slide-out 1.5s ease-out forwards',
             },
             keyframes: {
                 'bounce-once': {
                     '0%': { transform: 'translateY(-100%)', opacity: '0' },
+                    '50%': { transform: 'translateY(-50%)', opacity: '0.5' },
                     '100%': { transform: 'translateY(0)', opacity: '1' },
                 },
                 'slide-out': {
