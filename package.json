@@ -1,18 +1,35 @@
 {
     "name": "@orians/tailwind",
-    "version": "1.0.3",
-    "publishConfig": {
-        "access": "public"
-    },
-    "type": "module",
-    "main": "tailwind.config.js",
+    "version": "2.0.0",
     "homepage": "https://github.com/ComusBala96/tailwind.git",
     "description": "A npm package of tailwind css for OrianSoft.",
+    "type": "module",
+    "main": "src/tailwind.config.js",
+    "types": "src/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./src/tailwind.config.js",
+            "require": "./src/tailwind.config.js",
+            "types": "./src/index.d.ts"
+        },
+        "./postcss": {
+            "import": "./src/postcss.config.js",
+            "require": "./src/postcss.config.js",
+            "types": "./src/postcss.d.ts"
+        },
+        "./base": {
+            "default": "./src/base.css",
+            "types": "./src/base.d.ts"
+        }
+    },
     "files": [
         "base.css",
         "tailwind.config.js",
         "postcss.config.js"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "keywords": [
         "orians",
         "npm",
@@ -33,6 +50,6 @@
         "@tailwindcss/aspect-ratio": "^0.4.2",
         "autoprefixer": "^10.4.20",
         "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13"
+        "tailwindcss": "^3.4.17"
     }
 }
